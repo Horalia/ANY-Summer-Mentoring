@@ -1,7 +1,14 @@
-import React from "react";
+import React,{ useState, useEffect }  from "react";
 import Navigation from "./Nav.js";
 
 export default function Introduction() {
+
+   const [responseData, setResponseData] = useState([]);
+     useEffect(() => {
+       // call fetch call here
+
+     });
+
   return (
     <div>
       <h1>Introduction to Covid-19</h1>
