@@ -1,13 +1,11 @@
-import React,{ useState, useEffect }  from "react";
+import React, { useState, useEffect } from "react";
 import Navigation from "./Nav.js";
 
 export default function Introduction() {
-
-   const [responseData, setResponseData] = useState([]);
-     useEffect(() => {
-       // call fetch call here
-
-     });
+  const [responseData, setResponseData] = useState([]);
+  useEffect(() => {
+    // call fetch call here
+  });
 
   return (
     <div>

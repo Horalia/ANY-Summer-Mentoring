@@ -18,6 +18,8 @@ export default function Prevention() {
       others, washing hands with soap and water often and for at least 20
       seconds, practicing good respiratory hygiene, and avoiding touching the
       eyes, nose, or mouth with unwashed hands.
+      <img src={mask.jpeg} alt="face mask image" />;
+      <img src={socialDistancing.jpeg} alt="social distancing image" />;
     </div>
   );
 }

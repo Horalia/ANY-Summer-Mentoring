@@ -14,6 +14,7 @@ export default function Cause() {
       can also transmit the virus without showing any symptom (asymptomatic
       transmission), but it is unclear how often this happens. A June 2020
       review found that 40–45% of infected people are asymptomatic.
+      <img src={virus.jpeg} alt="Virus image" />;
     </div>
   );
 }
