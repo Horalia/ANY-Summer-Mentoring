@@ -1,9 +1,9 @@
 import React from "react";
-import Cause from "./cause.js";
 
 export default function Cause() {
   return (
     <div>
+      <h1>Cause of Covid-19</h1>
       COVID 19 is a new disease, and many of the details of its spread are still
       under investigation. It spreads easily between people more easily than
       influenza but not as easily as measles. People are most infectious when
